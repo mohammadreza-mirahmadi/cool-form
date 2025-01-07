@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section class="form-container">
+      <form action="#" class="form">
+        <h1 class="form__title">Sign Up</h1>
+        <fieldset class="form__input-container">
+          <label for="username" class="form__label">Username:</label>
+          <input
+            type="text"
+            id="username"
+            class="input"
+            name="username"
+            placeholder="Enter your username"
+            required
+          />
+        </fieldset>
+        <fieldset class="form__input-container">
+          <label for="pass" class="form__label">Password:</label>
+          <input
+            type="password"
+            id="pass"
+            class="input"
+            name="pass"
+            placeholder="Enter your password"
+            required
+          />
+        </fieldset>
+        <fieldset class="form__input-container">
+          <label for="confirm-pass" class="form__label"
+            >Confirm Password:</label
+          >
+          <input
+            type="password"
+            id="confirm-pass"
+            class="input"
+            name="confirm-pass"
+            placeholder="Enter your password again"
+            required
+          />
+        </fieldset>
+        <input
+          type="checkbox"
+          class="input"
+          id="privacy-policy"
+          name="privacy-policy"
+          value="yes"
+          readonly
+        />
+        <label for="privacy-policy"
+          >I agree <a href="#" class="form__link">privacy</a> and
+          <a href="#" class="form__link">polic.</a></label
+        >
+        <button type="submit" class="form__btn">Sign Up</button>
+        <p class="form__separation">or</p>
+        <button type="button" class="form__btn google-btn">
+          <a href="#" class="form__link">
+            <span class="form__icon google-icon"></span>
+            Continue with Google
+          </a>
+        </button>
+        <button type="button" class="form__btn facebook-btn">
+          <a href="#" class="form__link">
+            <span class="form__icon facebook-icon"></span>
+            Continue with Facebook
+          </a>
+        </button>
+        <button type="button" class="form__btn git-btn">
+          <a href="#" class="form__link">
+            <span class="form__icon git-icon"></span>
+            Continue with Github
+          </a>
+        </button>
+      </form>
+    </section>
+  </body>
+</html>
