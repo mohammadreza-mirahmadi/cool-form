@@ -14,8 +14,73 @@ input {
 .form-container {
   width: 100vw;
   height: 100vh;
+  padding: 15vh 0 25vh 0;
   background: url("../img/background-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* color: rgb(245, 108, 119); */
 }
+.form {
+  font-family: sans-serif;
+  width: 20rem;
+  height: 60vh;
+  margin: 0 auto;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 40px 5px rgb(82, 29, 33, 0.46);
+  background-color: rgb(246, 140, 112, 0.15);
+  backdrop-filter: blur(0.3rem);
+  -webkit-backdrop-filter: blur(0.3rem);
+  color: #400303;
+}
+.form__title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.form__input-container {
+  padding: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.form__label {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+.input {
+    display: block;
+  width: 90%;
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: rgb(246, 140, 112, 0.5);
+  opacity: 0.5;
+  /* backdrop-filter: blur(1rem); */
+  /* -webkit-backdrop-filter: blur(1rem); */
+  outline: 2px solid rgb(246, 140, 112, 1);
+  color: #000000;
+}
+.input::placeholder {
+  font-size: 0.7rem;
+  color: #000000;
+}
+.checkbox {
+}
+.form__link {
+  text-decoration: none;
+  color: #400303;
+}
+.form__btn {
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: 0.4rem auto;
+  padding: 0.4rem 0;
+  border-radius: 0.4rem;
+  background-color: rgb(181, 23, 158, 0.4);
+  color: #400303;
+  font-weight: 700;
+}
+.form__separation {
+
