@@ -48,7 +48,7 @@ input {
   font-weight: 700;
 }
 .input {
-    display: block;
+  display: block;
   width: 90%;
   font-size: 0.75rem;
   margin-top: 0.2rem;
@@ -82,5 +82,12 @@ input {
   color: #400303;
   font-weight: 700;
 }
-.form__separation {
-
+.form__btn:hover {
+  background-color: rgb(242, 112, 89, 0.8);
+  color: #400303;
+}
+.form__text {
+  width: 80%;
+  font-size: 0.8rem;
+  margin: 0.6rem auto 0 auto;
+}
