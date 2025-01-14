@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="./styles/signUp.css" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./styles/signIn.css" />
   </head>
   <body>
     <section class="form-container">
       <form action="#" class="form">
-        <h1 class="form__title">Sign Up</h1>
+        <h1 class="form__title">Sign In</h1>
         <fieldset class="form__input-container">
           <label for="username" class="form__label">Username:</label>
           <input
@@ -32,35 +32,22 @@
             required
           />
         </fieldset>
-        <fieldset class="form__input-container">
-          <label for="confirm-pass" class="form__label"
-            >Confirm Password:</label
-          >
-          <input
-            type="password"
-            id="confirm-pass"
-            class="input"
-            name="confirm-pass"
-            placeholder="Enter your password again"
-            required
-          />
-        </fieldset>
         <input
           type="checkbox"
           class="checkbox"
           id="privacy-policy"
-          name="privacy-policy"
+          name="remember-me"
           value="yes"
           readonly
         />
-        <label for="privacy-policy" class="form__label"
-          >I agree <a href="#" class="form__link">privacy</a> and
-          <a href="#" class="form__link">polic.</a></label
-        >
-        <button type="submit" class="form__btn">Sign Up</button>
+        <label for="remember-me" class="form__label">Remember Me</label>
+        <button type="submit" class="form__btn">Sign In</button>
         <p class="form__text">
-          Already have an account?
-          <a href="./signIn.html" class="form__link">Sign In</a>
+          Don't have an account?
+          <a href="./signUp.html" class="form__link">Sign Up</a>
+        </p>
+        <p class="form__text forgot-pass">
+          <a href="#" class="form__link">Forgot Password!</a>
         </p>
       </form>
     </section>
